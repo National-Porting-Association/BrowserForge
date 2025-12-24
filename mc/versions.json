@@ -3,9 +3,9 @@
     "id": "1.2.5",
     "name": "Minecraft 1.2.5 Forge",
     "jar": "jars/1.2.5.jar",
-     "type": "zip"
+    "type": "jar-zip"
   },
-    {
+  {
     "id": "1.5.2",
     "name": "Minecraft 1.5.2 Forge",
     "jar": "jars/1.5.2.jar",
@@ -52,13 +52,20 @@
       }
     ],
     "jvmArgs": [
-  "--version", "1.8.8",
-  "--tweakClass", "cpw.mods.fml.common.launcher.FMLTweaker",
-  "--accessToken", "FML",
-  "--userProperties", "{}",
-  "--username", "ExampleUser",
-  "--uuid", "00000000-0000-0000-0000-000000000000",
-  "--versionType", "Forge"
-]
+      "--version",
+      "1.8.8",
+      "--tweakClass",
+      "cpw.mods.fml.common.launcher.FMLTweaker",
+      "--accessToken",
+      "FML",
+      "--userProperties",
+      "{}",
+      "--username",
+      "ExampleUser",
+      "--uuid",
+      "00000000-0000-0000-0000-000000000000",
+      "--versionType",
+      "Forge"
+    ]
   }
 ]
